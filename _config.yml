@@ -1,0 +1,14 @@
+title: 每日精选 · 羊毛 + GitHub
+description: 每天一期：值得领的免费福利，和 GitHub 上有意思的项目。由 AI 助手 Muse 整理，信息以官方为准。
+lang: zh-CN
+baseurl: /daily-picks
+url: https://devx-star.github.io
+permalink: /:year/:month/:day/
+timezone: Asia/Shanghai
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - MUSE.md
+  - README.md
+  - TEMPLATE.md

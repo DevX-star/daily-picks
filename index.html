@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1>每天一期，羊毛 + GitHub</h1>
+  <p>{{ site.description }}</p>
+</section>
+
+{% if site.posts.size > 0 %}
+<ul class="issues">
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      <span class="d">{{ post.date | date: "%m-%d" }}</span>
+      <span class="t">{{ post.title }}</span>
+      {% if post.summary %}<span class="s">{{ post.summary }}</span>{% endif %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty">第一期正在整理中，明天见。</p>
+{% endif %}
