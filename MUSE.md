@@ -1,6 +1,6 @@
 # Muse 每日任务说明：daily-picks
 
-每天做一期「羊毛 + GitHub 精选」，发布到 https://devx-star.github.io/daily-picks/
+每天做一期「羊毛 · 云电脑 · AI · GitHub 精选」，发布到 https://devx-star.github.io/daily-picks/
 
 ## 环境
 
@@ -22,21 +22,43 @@
 
 ## 内容要求
 
-**🐑 羊毛：3–6 条**
-- 只收**免费可领**的：免费额度、免费试用（不需绑卡优先）、限免软件/游戏、开发者福利、教育优惠等
-- 每条写清：能领到什么、门槛（是否需信用卡/新用户/特定地区）、截止时间、官方链接
-- 链接必须是**官方页面**，不要用别人的推荐/邀请链接
-- 自己打开确认过还有效才收录
+每期四个栏目，按下面顺序排。**同一条内容只放一个栏目**，按「归属」判断放哪。
+某个栏目当天确实没有合格内容，可以少收，但要在栏目里写一句「今天没有值得收录的」，不要硬凑。
 
-**⭐ GitHub：5–8 个**
+**🐑 今日羊毛：3–5 条**
+- 归属：游戏、软件、域名、会员、开发者工具、教育优惠等**不属于云和 AI** 的免费福利
+- 只收**免费可领**的；免费试用优先收不需绑卡的
+- 每条写清：能领到什么、门槛（是否需信用卡/新用户/特定地区）、截止时间、官方链接
+
+**☁️ 云电脑 & 云资源：2–4 条**
+- 归属：云电脑/云桌面/云手机、VPS 和云服务器、GPU 算力、对象存储、Serverless 等的**免费额度、试用、赠金、限时活动**
+  - 例：甲骨文/AWS/GCP/Azure 免费套餐和赠金变化、阿里云无影/腾讯云等云电脑试用、Colab/Kaggle/Lightning 等免费 GPU、新出现的免费 VPS 或建站平台
+- 每条额外写清：**配置**（CPU/内存/显卡/流量）、**免费时长或额度**、**要不要绑卡**、**是否限地区或要实名**
+- 有明显坑（到期自动扣费、容易被回收、需要国际信用卡）要在门槛里写出来
+
+**🤖 AI 动态 & 免费额度：3–5 条**
+- 归属：AI 相关的新闻和福利：
+  - **新发布**：重要的新模型、新产品、大版本更新（一句话说清是什么、比之前强在哪）
+  - **免费额度**：AI 工具/API 的免费额度、赠送积分、限时免费（门槛写法同羊毛）
+  - **值得一试的新工具**：新出的、普通人也能直接用的 AI 产品
+- 只收有官方来源（官方博客、官方公告、产品官网）的，不收传闻和营销号二手消息
+- AI 相关的**开源仓库**放到 GitHub 栏目，不放这里
+
+**⭐ GitHub 有趣项目：5–8 个**
 - 有意思、实用、或者新奇的项目，不只是星多。避免连续几天收录同一个项目
 - 每个写：仓库链接、语言、星数（今日新增）、一句话是干什么的、一句话为什么值得看
 
+**所有栏目通用**
+- 链接必须是**官方页面**，不要用别人的推荐/邀请链接
+- 自己打开确认过还有效才收录
+- 开头那句导读，从四个栏目里挑当天最值得看的两三条来写
+
 ## 参考来源（可以自己扩展）
 
+- 羊毛：Epic 每周限免 `store.epicgames.com/zh-CN/free-games`、Steam 限免、V2EX 的「免费赠送」等节点、Product Hunt、Reddit r/AppHookup、r/googleplaydeals
+- 云电脑 & 云资源：各云厂商的免费套餐页（`oracle.com/cloud/free`、`aws.amazon.com/free`、`cloud.google.com/free`、`azure.microsoft.com/free`）、阿里云/腾讯云/华为云的活动页、V2EX 的「VPS」「云计算」节点、LowEndTalk、Reddit r/selfhosted
+- AI：各大模型厂商官方博客和新闻页（OpenAI、Anthropic、Google DeepMind、Meta AI、DeepSeek、通义千问、智谱、月之暗面等）、Hugging Face 热门、Product Hunt 的 AI 分类、Hacker News 首页
 - GitHub：`github.com/trending`（今日）、`github.com/trending?since=weekly`、Hacker News 的 Show HN
-- 羊毛：Epic 每周限免 `store.epicgames.com/zh-CN/free-games`、Steam 限免、
-  V2EX 的「免费赠送」等节点、Product Hunt、各大云/AI 厂商的免费额度公告、Reddit r/AppHookup、r/googleplaydeals
 
 ## 规矩（必须遵守）
 
