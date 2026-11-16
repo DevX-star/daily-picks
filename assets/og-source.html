@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    background: #fbfaf7;
+    font-family: "PingFang SC", "Noto Sans CJK SC", sans-serif;
+    color: #1f2328;
+    position: relative;
+  }
+  .band { position: absolute; inset: 0 0 auto 0; height: 14px; background: #0f766e; }
+  .wrap { position: absolute; left: 96px; top: 120px; right: 96px; }
+  .row { display: flex; align-items: center; gap: 36px; }
+  .logo { width: 168px; height: 168px; flex: none; }
+  h1 { font-size: 92px; line-height: 1.1; margin: 0; font-weight: 800; letter-spacing: 2px; }
+  .sub { font-size: 40px; color: #0f766e; margin-top: 18px; font-weight: 600; }
+  .chips { display: flex; gap: 16px; margin-top: 64px; }
+  .chip { font-size: 30px; padding: 10px 24px; border-radius: 999px; background: #e6f4f1; color: #0f766e; font-weight: 600; }
+  .url { position: absolute; left: 96px; bottom: 56px; font-size: 28px; color: #6b7280; letter-spacing: 0.5px; }
+  .deco { position: absolute; right: -60px; bottom: -80px; width: 420px; height: 420px; opacity: 0.07; }
+</style>
+</head>
+<body>
+  <div class="band"></div>
+  <svg class="deco" viewBox="0 0 64 64"><path d="M32 4l8.2 17.6 19.3 2.3-14.2 13.3 3.8 19L32 46.8 14.9 56.2l3.8-19L4.5 23.9l19.3-2.3z" fill="#0f766e"/></svg>
+  <div class="wrap">
+    <div class="row">
+      <img class="logo" src="logo.svg" alt="">
+      <div>
+        <h1>每日精选</h1>
+        <div class="sub">羊毛 + GitHub · 每天一期</div>
+      </div>
+    </div>
+    <div class="chips">
+      <span class="chip">🐑 免费福利</span>
+      <span class="chip">⭐ 有趣项目</span>
+      <span class="chip">🤖 AI 每日整理</span>
+    </div>
+  </div>
+  <div class="url">devx-star.github.io/daily-picks</div>
+</body>
+</html>

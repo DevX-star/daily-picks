@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0f766e"/>
+  <!-- 优惠券（羊毛） -->
+  <path d="M12 20a4 4 0 0 1 4-4h32a4 4 0 0 1 4 4v6a6 6 0 0 0 0 12v6a4 4 0 0 1-4 4H16a4 4 0 0 1-4-4v-6a6 6 0 0 0 0-12z" fill="#fbfaf7"/>
+  <!-- 星（GitHub Star） -->
+  <path d="M32 21.5l3.1 6.6 7.2.9-5.3 5 1.4 7.1L32 37.6l-6.4 3.5 1.4-7.1-5.3-5 7.2-.9z" fill="#0f766e"/>
+</svg>

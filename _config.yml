@@ -12,3 +12,5 @@ exclude:
   - MUSE.md
   - README.md
   - TEMPLATE.md
+  - assets/og-source.html
+  - assets/icon-source.html
