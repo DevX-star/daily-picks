@@ -53,6 +53,22 @@
 - 自己打开确认过还有效才收录
 - 开头那句导读，从四个栏目里挑当天最值得看的两三条来写
 
+## 先看 RSS 订阅源（推荐）
+
+VPS 本机跑着 RSSHub，可以直接用 `curl` 读，比开网页快、不会遇到验证码。先从这里拿素材，再用浏览器打开具体页面核实：
+
+| 用途 | 地址 |
+|---|---|
+| Epic 限免 | `http://127.0.0.1:1200/epicgames/freegames/zh-CN` |
+| V2EX 最新话题（找羊毛、VPS 活动） | `http://127.0.0.1:1200/v2ex/topics/latest` |
+| Hacker News 精选 | `http://127.0.0.1:1200/hackernews/best` |
+| Hugging Face 每日论文 | `http://127.0.0.1:1200/huggingface/daily-papers` |
+| OpenAI 新闻 | `http://127.0.0.1:1200/openai/news` |
+| Anthropic 新闻 | `http://127.0.0.1:1200/anthropic/news` |
+| Google DeepMind 博客 | `http://127.0.0.1:1200/deepmind/blog` |
+
+更多路由见 https://docs.rsshub.app/ ，格式是 `http://127.0.0.1:1200/路由`。GitHub Trending 的 RSS 没开，直接用浏览器看 `github.com/trending`。
+
 ## 参考来源（可以自己扩展）
 
 - 羊毛：Epic 每周限免 `store.epicgames.com/zh-CN/free-games`、Steam 限免、V2EX 的「免费赠送」等节点、Product Hunt、Reddit r/AppHookup、r/googleplaydeals
